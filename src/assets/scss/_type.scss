@@ -1,0 +1,56 @@
+/* stylelint-disable selector-max-id */
+@use 'variables';
+
+@font-face {
+  font-family: Urbanist;
+  font-weight: 1 999;
+  src: url('/fonts/Urbanist-var.woff2') format('woff2-variations');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  src: url('/fonts/IBMPlexMono-Regular.woff2') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 450;
+  src: url('/fonts/IBMPlexMono-Text.woff2') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  src: url('/fonts/IBMPlexMono-Medium.woff2') format('woff');
+  font-display: swap;
+}
+
+html,
+body,
+#app {
+  min-height: 100vh;
+  overscroll-behavior: none;
+  color: var(--color-grayscale-0);
+  scroll-padding: calc(var(--navbar-height) + var(--spacer-4));
+  scroll-behavior: smooth;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+kbd,
+samp {
+  font-family: var(--font-family-sans-serif);
+  font-size: inherit;
+}
+
+.main-wrapper {
+  flex: 1 1 auto;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
