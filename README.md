@@ -16,6 +16,4 @@ To reproduce the error, go to /globe, wait a bit, and click on "Sprint" at the t
 
 Removing `<component />` and getting rid of the `Transition` 100% gets rid of the error.
 
-<video width="320" height="240" controls>
-  <source src="tresjs-error.mp4" type="video/mp4">
-</video>
+[Link to video to reproduce](tresjs-error.mp4)
